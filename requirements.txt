@@ -1,0 +1,11 @@
+torch
+torchvision
+tensorboard
+Pillow
+matplotlib>=3.6.3
+tqdm
+sacred
+numpy
+torch_geometric
+torch_scatter
+torch_sparse

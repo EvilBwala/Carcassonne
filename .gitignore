@@ -1,0 +1,126 @@
+# ── Byte-compiled / optimized / DLL files ─────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ── C / C++ build artifacts ───────────────────────────────
+*.so
+*.o
+*.d
+build/
+
+# ── Distribution / packaging ─────────────────────────────
+.Python
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Installer logs ───────────────────────────────────────
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Unit test / coverage reports ─────────────────────────
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ── Translations ─────────────────────────────────────────
+*.mo
+*.pot
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+
+# ── Jupyter Notebook ─────────────────────────────────────
+.ipynb_checkpoints
+
+# ── pyenv / pipenv / PEP 582 ────────────────────────────
+.python-version
+__pypackages__/
+
+# ── Environments ─────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── IDE / editor ────────────────────────────────────────
+.spyderproject
+.spyproject
+.ropeproject
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Sacred experiment outputs ────────────────────────────
+experiments/
+
+# ── Generated visualisation artifacts ────────────────────
+game_frames/
+game_animation.mp4
+search_depth.png
+
+# ── Precomputed ResNet tile features (legacy CNN model) ──
+carcassonne/resources/images/*.feat.npy
+
+# ── Reference PDFs ───────────────────────────────────────
+ballard1983.pdf
+
+# ── Othello (reference game, not used) ───────────────────
+othello_train.py
+agents/othello_agent.py
+games/othello_game.py
+games/othello_game_state.py
+
+# ── Legacy / unused agent variants ───────────────────────
+agents/carcassonne_agent.py
+agents/fake_td_mcts.py
+agents/third_party_mcts.py
+
+# ── Legacy tile feature precomputation ───────────────────
+compute_tile_features.py
+
+# ── Unused framework scaffolding ─────────────────────────
+models/
+tasks/
+trainers/
+
+# ── Test and benchmark scripts ───────────────────────────
+test_*.py
+carcassonne_test.py
+speed_test.py
+checking_game_engine.py
+
+# ── Temporary / scratch ─────────────────────────────────
+temp/
