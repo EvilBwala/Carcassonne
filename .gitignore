@@ -104,7 +104,6 @@ games/othello_game.py
 games/othello_game_state.py
 
 # ── Legacy / unused agent variants ───────────────────────
-agents/carcassonne_agent.py
 agents/fake_td_mcts.py
 agents/third_party_mcts.py
 
